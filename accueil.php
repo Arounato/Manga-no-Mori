@@ -6,11 +6,15 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <?php require_once ('headerfooter/header.php') ?>
-        <main id="corp1">
-            <p>texte</p>
-            <p>e</p>
-        </main>
+        <?php require_once ('headerfooter/header.php') ?>
+            <main>
+                <div class="rouge">
+                </div>
+                <div class="bleu">
+                </div>
+                <div class="violet">
+                </div>
+            </main>
+        <?php require_once ('headerfooter/footer.php') ?>
     </body>
-    <?php require_once ('headerfooter/footer.php') ?>
 </html>
