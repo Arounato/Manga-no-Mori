@@ -91,3 +91,68 @@ header nav ul li a{
     border-radius: 25px;
     border: solid 2px black;
 }
+
+/* FOOTER */
+
+footer{
+    height: auto;
+    background-color: #FFC0CB;
+}
+
+.footer-separateur{
+    width: 30%;
+    border-top: 1px solid black;
+    margin: 10px auto;
+}
+
+.liens2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #FFC0CB;
+}
+
+.liens2 a{
+    font-size: 17px;
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+.liens2 a:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+.liens3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #FFC0CB;
+}
+
+.liens3 a{
+    padding: 0 10px;
+}
+
+.liens3 a:last-child{
+    padding-right: 0;
+}
+
+.logos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #FFC0CB;
+}
+
+.logos1 img{
+    padding: 0 10px;
+}
+
+.logos1 img:last-child{
+    padding-right: 0;
+}
+
