@@ -10,6 +10,10 @@ body{
     font-size: 15px;
 }
 
+main{
+    flex-grow: 1;
+}
+
 h2{
     color: whitesmoke;
     font-size: 55px;
@@ -62,7 +66,7 @@ header a.header_lien_gauche img{
 
 #section_decouvrez{
     height: 726px;
-    background: url('img/fond/personnages_mangas.jpg')center/cover no-repeat;
+    background: url('../img/fond/personnages_mangas.jpg')center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
