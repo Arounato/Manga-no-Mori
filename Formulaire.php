@@ -11,14 +11,14 @@
         <?php require_once ('composants/header.php') ?>
 
         <main>
-            <section id="section_I-C">
+            <section id="section_inscription_connexion">
                 <!--action = page ou les donnee inscrite et envoyer depuis le formulaire vont etre traiter-->
-                <form action="Result.php" method="post">
-                    <ul class="formulaire_I-C">
+                <form action="Result.php" method="post" class="formulaire_inscription_connexion">
+                    <ul>
                         <h3>Inscription</h3>
                         <li>
                             <label for="email">Email :</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </li>
                         <li>
                             <label for="mot_de_passe">Mot de passe :</label>
@@ -26,7 +26,7 @@
                         </li>
                         <li>
                             <label for="confirmation_mot_de_passe">Confirmation du mot de passe :</label>
-                            <input type="password" id="confirmation_mot_de_passe" name="confirmation_mot_de_passe">
+                            <input type="password" id="confirmation_mot_de_passe" name="confirmation_mot_de_passe" required>
                         </li>
                         <li>
                             <input class="bouton_2" type="submit" value="Valider">

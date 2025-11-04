@@ -99,12 +99,16 @@ header a.header_lien_gauche img{
 
     /* Formulaire.php */
 
-#section_I-C{
+#section_inscription_connexion{
     display: flex;
     justify-content: center;
 }
 
-.formulaire_I-C{
+#section_inscription_connexion h3 {
+    text-align: center;
+}
+
+.formulaire_inscription_connexion ul{
     margin: 0;
     padding: 0;
     display: flex;
@@ -112,18 +116,22 @@ header a.header_lien_gauche img{
     width: 200px;
     list-style: none;
     margin: 50px auto;
+    background-color: #FFC0CB;
+    border-radius: 10px;
 }
 
-.formulaire_I-C li{
+.formulaire_inscription_connexion ul li{
+    padding: 0 10px;
     margin-bottom: 10px;
 }
 
 .bouton_2{
     width: 60px;
-    color: white;
+    color: black;
     background-color:#4CAF50;
     border: 0;
     border-radius: 2px;
+    border: solid 1px black;
 }
 
 /* FOOTER */
