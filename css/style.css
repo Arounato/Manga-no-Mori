@@ -113,7 +113,7 @@ header a.header_lien_gauche img{
     padding: 0;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     list-style: none;
     margin: 50px auto;
     background-color: #FFC0CB;
@@ -125,11 +125,19 @@ header a.header_lien_gauche img{
     margin-bottom: 10px;
 }
 
+.formulaire_inscription_connexion label{
+    display: block;
+}
+
+.formulaire_inscription_connexion input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .bouton_2{
-    width: 60px;
     color: black;
     background-color:#4CAF50;
-    border: 0;
     border-radius: 2px;
     border: solid 1px black;
 }

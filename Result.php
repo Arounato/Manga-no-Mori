@@ -23,10 +23,14 @@
             header('Location: Formulaire.php');
         }
 
-        echo "<p> Email : $email; Mot de passe : $mot_de_passe; Confirmation_mot_de_passe : $confirmation_mot_de_passe</p>"
+        echo "<p>Envoi et validation de donner effectuer !</p>"
 
         ?>
     </main>
+
+    <section>
+
+    </section>
 
     <?php require_once('composants/footer.php') ?>
 
