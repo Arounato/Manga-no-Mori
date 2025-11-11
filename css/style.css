@@ -14,11 +14,6 @@ main{
     flex-grow: 1;
 }
 
-h2{
-    color: whitesmoke;
-    font-size: 55px;
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -66,81 +61,109 @@ header a.header_lien_gauche img{
 
     /* Accueil.php */
 
-#section_decouvrez{
-    height: 726px;
-    background: url('../img/fond/personnages_mangas.jpg')center/cover no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    #section_decouvrez{
+        height: 726px;
+        background: url('../img/fond/personnages_mangas.jpg')center/cover no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-#section_decouvrez h2{
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke: 2px black;
-    /*contour de texte : https://kinsta.com/fr/blog/contour-texte-css/*/
-}
+    #section_decouvrez h2{
+        color: whitesmoke;
+        font-size: 55px;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        -webkit-text-stroke: 2px black;
+        /*contour de texte : https://kinsta.com/fr/blog/contour-texte-css/*/
+    }
 
-.bouton_1{
-    display: block;
-    width: 120px;
-    height: 50px;
-    background-color: #FFC0CB;
-    font-size: 20px;
-    margin: 0 auto;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 25px;
-    border: solid 2px black;
-}
+    .bouton_1{
+        display: block;
+        width: 120px;
+        height: 50px;
+        background-color: #FFC0CB;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 25px;
+        border: solid 2px black;
+    }
 
     /* Formulaire.php */
 
-#section_inscription_connexion{
-    display: flex;
-    justify-content: center;
-}
+    #section_inscription_connexion{
+        display: flex;
+        justify-content: center;
+    }
 
-#section_inscription_connexion h3 {
-    text-align: center;
-}
+    #section_inscription_connexion h3 {
+        text-align: center;
+    }
 
-.formulaire_inscription_connexion ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    list-style: none;
-    margin: 50px auto;
-    background-color: #FFC0CB;
-    border-radius: 10px;
-}
+    .formulaire_inscription_connexion ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        list-style: none;
+        margin: 50px auto;
+        background-color: #FFC0CB;
+        border-radius: 10px;
+    }
 
-.formulaire_inscription_connexion ul li{
-    padding: 0 10px;
-    margin-bottom: 10px;
-}
+    .formulaire_inscription_connexion ul li{
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
 
-.formulaire_inscription_connexion label{
-    display: block;
-}
+    .formulaire_inscription_connexion label{
+        display: block;
+    }
 
-.formulaire_inscription_connexion input{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-}
+    .formulaire_inscription_connexion input{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
 
-.bouton_2{
-    color: black;
-    background-color:#4CAF50;
-    border-radius: 2px;
-    border: solid 1px black;
-}
+    .bouton_2{
+        color: black;
+        background-color:#4CAF50;
+        border-radius: 2px;
+        border: solid 1px black;
+    }
+
+    /* Contact.php */
+
+    .bloc1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloc2{
+        padding: 10px;
+        width: 500px;
+        height: 100%;
+        background-color: #FFC0CB;
+        border: solid 1px black;
+    }
+
+    .bloc2 p{
+        display: flex;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .bloc2 p:last-child{
+        margin-bottom: 0;
+    }
 
 /* FOOTER */
 
