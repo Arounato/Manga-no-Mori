@@ -141,27 +141,27 @@ header a.header_lien_gauche img{
 
     /* Contact.php */
 
-    .bloc1{
+    .section-contact{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .bloc2{
+    .div-contact{
         padding: 10px;
-        width: 500px;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
         background-color: #FFC0CB;
         border: solid 1px black;
     }
 
-    .bloc2 p{
+    .div-contact p{
         display: flex;
         margin: 0;
         margin-bottom: 10px;
     }
     
-    .bloc2 p:last-child{
+    .div-contact p:last-child{
         margin-bottom: 0;
     }
 

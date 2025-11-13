@@ -11,12 +11,18 @@
         <?php require_once ('../composants/header.php') ?>
 
         <main>
-            <section class="bloc1">
+            <section class="section-contact">
                 <h1>Contact</h1>
-                <div class="bloc2">
-                    <p><strong>Mail</strong> : xxx@manganomori.com</p>
-                    <p><strong>Téléphone fixe</strong> : 01.xx.xx.xx.xx</p>
-                    <p>La boutique physique n'existe pas pour le moment.</p>
+                <div class="div-contact">
+                    <p>
+                        <strong>Mail</strong>:
+                        <a href="mailto:xxx@manganomori.com">xxx@manganomori.com</a>
+                    </p>
+                    <p>
+                        <strong>Téléphone fixe</strong>:
+                        <a href="tel:+33100000000">01.00.00.00.00</a>
+                    </p>
+                    <p>Manga no Mori est une boutique en ligne. </p>
                     <!-- 
                         Lien : Contact : mail, téléphonique
                         - Précisez dans la page redirigé que c'est une boutique en ligne !)
