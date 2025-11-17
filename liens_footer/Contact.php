@@ -11,7 +11,7 @@
         <?php require_once ('../composants/header.php') ?>
 
         <main>
-            <section class="section-contact">
+            <section id="section-contact">
                 <h1>Contact</h1>
                 <div class="div-contact">
                     <p>
@@ -23,11 +23,6 @@
                         <a href="tel:+33100000000">01.00.00.00.00</a>
                     </p>
                     <p>Manga no Mori est une boutique en ligne. </p>
-                    <!-- 
-                        Lien : Contact : mail, téléphonique
-                        - Précisez dans la page redirigé que c'est une boutique en ligne !)
-                        - Précisez les horaires téléphonique
-                    -->
                 </div>
             </section>
         </main>
