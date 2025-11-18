@@ -13,7 +13,7 @@
         <main>
             <section id="section-livraison">
                 <h1>Livraison</h1>
-                <div class="div-livraison">
+                <div class="bloc-type-1">
                     <h2>1. 📦 Modes et Délais de Livraison</h2>
                     <ul>
                         <li>Texte d'introduction : Chez Manga no Mori, nous veillons à ce que vos mangas soient emballés avec soin et expédiés dans les plus brefs délais. Voici tout ce que vous devez savoir sur la réception de votre commande.</li>
@@ -41,10 +41,3 @@
 
     </body>
 </html>
-                <!--
-                    Lien : Livraison 
-                    (Informations sur la livraison : 
-                    - Transporteur: ex : icône La Poste + petit description si besoin)
-                    - Information sur la livraison (expédier sous combiens de temps, livrer sous combien de temps sans compter
-                    le week-end)
-                -->

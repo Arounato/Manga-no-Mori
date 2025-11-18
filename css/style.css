@@ -59,6 +59,19 @@ header a.header_lien_gauche img{
 
 /* MAIN */
 
+    /* Class réutilisables */
+
+    .bloc-type-1{
+        padding: 10px;
+        max-width: 70%;
+        max-height: 100%;
+        background-color: #FFC0CB;
+        border: solid 1px black;
+    }
+    .bloc-type-1 a{
+        color: red;
+    }
+
     /* Accueil.php */
 
     #section_decouvrez{
@@ -145,23 +158,14 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .div-contact{
-        padding: 10px;
-        max-width: 100%;
-        max-height: 100%;
-        background-color: #FFC0CB;
-        border: solid 1px black;
-    }
-
-    .div-contact p{
-        display: flex;
-        margin: 0;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     
-    .div-contact p:last-child{
+    #section-contact h2{
+        margin: 0;
+    }
+
+    #section-contact ul:last-child{
         margin-bottom: 0;
     }
 
@@ -171,25 +175,14 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 30px;
     }
 
-    .div-livraison{
-        padding: 10px;
-        max-width: 70%;
-        max-height: 100%;
-        background-color: #FFC0CB;
-        border: solid 1px black;
-    }
-    .div-livraison li{
-        display: flex;
+    #section-livraison h2{
         margin: 0;
     }
-
-    .div-livraison h2{
-        margin: 0;
-    }
-
-    .div-livraison ul:last-child{
+ 
+    #section-livraison ul:last-child{
         margin-bottom: 0;
     }
 
