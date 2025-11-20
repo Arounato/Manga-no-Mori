@@ -63,13 +63,10 @@ header a.header_lien_gauche img{
 
     .bloc-type-1{
         padding: 10px;
-        max-width: 70%;
+        max-width: 50%;
         max-height: 100%;
         background-color: #FFC0CB;
         border: solid 1px black;
-    }
-    .bloc-type-1 a{
-        color: red;
     }
 
     /* Accueil.php */
@@ -183,6 +180,40 @@ header a.header_lien_gauche img{
     }
  
     #section-livraison ul:last-child{
+        margin-bottom: 0;
+    }
+
+    /* QuiSommesNous.php */
+
+    #section-QuiSommesNous{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #section-QuiSommesNous h2{
+        margin: 0;
+    }
+ 
+    #section-QuiSommesNous ul:last-child{
+        margin-bottom: 0;
+    }
+
+    /* Ventes.php */
+
+    #section-ventes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #section-ventes h2{
+        margin: 0;
+    }
+ 
+    #section-ventes ul:last-child{
         margin-bottom: 0;
     }
 
