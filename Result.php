@@ -23,7 +23,7 @@
             header('Location: Formulaire.php');
         }
 
-        echo "<p>Envoi et validation de donner effectuer !</p>"
+        echo "<p>Envoi et validation de donner effectuer !</p>";
 
         ?>
     </main>

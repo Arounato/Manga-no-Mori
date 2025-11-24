@@ -12,10 +12,9 @@
 
         <main>
             <section id="section_inscription_connexion">
-                <!--action = page ou les donnee inscrite et envoyer depuis le formulaire vont etre traiter-->
+                <h1>Inscription</h1>
                 <form action="Result.php" method="post" class="formulaire_inscription_connexion">
                     <ul>
-                        <h3>Inscription</h3>
                         <li>
                             <label for="email">Email :</label>
                             <input type="email" id="email" name="email" required>

@@ -108,7 +108,8 @@ header a.header_lien_gauche img{
 
     #section_inscription_connexion{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     #section_inscription_connexion h3 {
@@ -122,7 +123,6 @@ header a.header_lien_gauche img{
         flex-direction: column;
         width: 250px;
         list-style: none;
-        margin: 50px auto;
         background-color: #FFC0CB;
         border-radius: 10px;
     }
