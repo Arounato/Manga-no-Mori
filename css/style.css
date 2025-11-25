@@ -101,7 +101,7 @@ header a.header_lien_gauche img{
         line-height: 50px;
         text-align: center;
         border-radius: 25px;
-        border: solid 2px black;
+        border: solid 1px black;
     }
 
     /* Formulaire.php */
@@ -112,19 +112,18 @@ header a.header_lien_gauche img{
         align-items: center;
     }
 
-    #section_inscription_connexion h3 {
-        text-align: center;
-    }
-
-    .formulaire_inscription_connexion ul{
-        margin: 0;
-        padding: 0;
+    .formulaire_inscription_connexion{
         display: flex;
         flex-direction: column;
         width: 250px;
-        list-style: none;
         background-color: #FFC0CB;
         border-radius: 10px;
+        border: solid 1px black;
+    }
+
+    .formulaire_inscription_connexion ul{
+        padding: 0;
+        list-style: none;
     }
 
     .formulaire_inscription_connexion ul li{
@@ -132,12 +131,15 @@ header a.header_lien_gauche img{
         margin-bottom: 10px;
     }
 
-    .formulaire_inscription_connexion label{
+    .formulaire_inscription_connexion ul li:last-child{
+        margin-bottom: 0;
+    }
+
+    .formulaire_inscription_connexion label, .formulaire_inscription_connexion input{
         display: block;
     }
 
     .formulaire_inscription_connexion input{
-        display: block;
         width: 100%;
         box-sizing: border-box;
     }
