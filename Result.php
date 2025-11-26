@@ -20,10 +20,10 @@
         $confirmation_mot_de_passe = $_POST['confirmation_mot_de_passe'];
 
         if(empty($email) || empty($mot_de_passe) || empty($confirmation_mot_de_passe)){
-            header('Location: Formulaire.php');
+            header('Location: Accueil.php');
         }
 
-        echo "<p>Envoi et validation de donner effectuer !</p>";
+        echo "Email = $email, Mot de passe = $mot_de_passe, Confirmation mot de passe = $confirmation_mot_de_passe <p>Envoi et validation de donner effectuer !</p>";
 
         ?>
     </main>
