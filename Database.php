@@ -1,7 +1,7 @@
 <?php 
 
 $host = "localhost";
-$dbname = "cours_php";
+$dbname = "manga_no_mori";
 $username = "root";
 $password = "root";
 
@@ -11,7 +11,4 @@ try {
 }catch(PDOException $e){
     echo "Echec de la connexion :" . $e->getMessage();
 }
-
-    /* Installation de phpmyadmin */
-
 ?>

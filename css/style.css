@@ -19,6 +19,10 @@ a{
     color: black;
 }
 
+section:last-child{
+        margin-bottom: 30px;
+    }
+
 /* HEADER */
 
 header{
@@ -106,13 +110,13 @@ header a.header_lien_gauche img{
 
     /* Formulaire.php */
 
-    #section_inscription_connexion{
+    #section_formulaire{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .formulaire_inscription_connexion{
+    .formulaire{
         display: flex;
         flex-direction: column;
         width: 250px;
@@ -121,25 +125,25 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
-    .formulaire_inscription_connexion ul{
+    .formulaire ul{
         padding: 0;
         list-style: none;
     }
 
-    .formulaire_inscription_connexion ul li{
+    .formulaire ul li{
         padding: 0 10px;
         margin-bottom: 10px;
     }
 
-    .formulaire_inscription_connexion ul li:last-child{
+    .formulaire ul li:last-child{
         margin-bottom: 0;
     }
 
-    .formulaire_inscription_connexion label, .formulaire_inscription_connexion input{
+    .formulaire label, .formulaire input{
         display: block;
     }
 
-    .formulaire_inscription_connexion input{
+    .formulaire input{
         width: 100%;
         box-sizing: border-box;
     }
@@ -157,7 +161,6 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
     }
     
     #section-contact h2{
@@ -174,7 +177,6 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
     }
 
     #section-livraison h2{
@@ -191,7 +193,6 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
     }
 
     #section-QuiSommesNous h2{
@@ -208,7 +209,6 @@ header a.header_lien_gauche img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
     }
 
     #section-ventes h2{

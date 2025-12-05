@@ -3,7 +3,7 @@
         <ul>
             <li><a href="../liens_footer/Contact.php">Contact</a></li>
             <li><a href="../liens_footer/Livraison.php">Livraison</a></li>
-            <li><a href="../liens_footer/QuiSommesNous.php">Qui sommes nous ?</a></li>
+            <li><a href="../liens_footer/QuiSommesNous.php">Qui sommes-nous ?</a></li>
             <li><a href="../liens_footer/Ventes.php">Ventes</a></li>
         </ul>
     </nav>
