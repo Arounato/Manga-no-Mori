@@ -12,7 +12,7 @@
 
         <main>
             <section id="section_formulaire">
-                <h1>Inscription</h1>
+                <h1>Connexion</h1>
                 <form action="Result.php" method="post" class="formulaire">
                     <ul>
                         <li>
@@ -30,7 +30,6 @@
                         <li>
                             <input class="bouton_2" type="submit" value="Valider">
                         </li>
-                        <a href="Formulaire_Connexion.php" class="bouton_3">Se connecter</a>
                     </ul>
                 </form>
             </section>

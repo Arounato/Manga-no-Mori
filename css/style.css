@@ -135,6 +135,7 @@ header a.header_lien_gauche img{
         margin-bottom: 10px;
     }
 
+    /*à modifier, etant donné de l'ajout du bouton_3*/
     .formulaire ul li:last-child{
         margin-bottom: 0;
     }
@@ -153,6 +154,20 @@ header a.header_lien_gauche img{
         background-color:#4CAF50;
         border-radius: 2px;
         border: solid 1px black;
+        font-size: 14px;
+    }
+
+    .bouton_3{
+        display: block;
+        padding: 0 10px;
+        background-color: rgb(240, 240, 240);
+        width: 230px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 2px;
+        border: solid 1px black;
+        font-size: 14px;
     }
 
     /* Contact.php */
