@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Formulaire</title>
+        <title>Inscription</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/png" href="img/logo/manganomori/2.png">
@@ -11,9 +11,9 @@
         <?php require_once ('composants/header.php') ?>
 
         <main>
-            <section id="section_formulaire">
+            <section id="section_formulaire_inscription">
                 <h1>Inscription</h1>
-                <form action="Result.php" method="post" class="formulaire">
+                <form action="Result.php" method="post" class="formulaire_inscription">
                     <ul>
                         <li>
                             <label for="email">Email :</label>

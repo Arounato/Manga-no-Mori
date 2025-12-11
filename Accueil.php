@@ -8,7 +8,10 @@
     </head>
     <body>
 
-        <?php require_once ('composants/header.php') ?>
+        <?php 
+            require_once ('Database.php');
+            require_once ('composants/header.php');    
+        ?>
         
         <main>
             <section id="section_decouvrez">

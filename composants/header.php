@@ -12,7 +12,7 @@
     <nav class="header_liens_droite">
         <ul>
             <li><a href="../Panier.php"><img src="../img/logo/panier-compte/panier.png" alt="logo_panier"></a></li>
-            <li><a href="../Formulaire.php"><img src="../img/logo/panier-compte/utilisateur.png" alt="logo_utilisateur"></a></li>
+            <li><a href="../Formulaire_Connexion.php"><img src="../img/logo/panier-compte/utilisateur.png" alt="logo_utilisateur"></a></li>
         </ul>
     </nav>
 </header>

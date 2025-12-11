@@ -15,37 +15,37 @@
     <main>
         <?php
 
-        require_once('Database.php');
+            require_once('Database.php');
 
-        $email = $_POST['email'];
-        $mot_de_passe = $_POST['mot_de_passe'];
-        $confirmation_mot_de_passe = $_POST['confirmation_mot_de_passe'];
+            $email = $_POST['email'];
+            $mot_de_passe = $_POST['mot_de_passe'];
+            $confirmation_mot_de_passe = $_POST['confirmation_mot_de_passe'];
 
-        if(empty($email) || empty($mot_de_passe) || empty($confirmation_mot_de_passe)){
-            header('Location: Accueil.php');
-            exit;//pour stopper le script
-        }
-
-        if($mot_de_passe !== $confirmation_mot_de_passe){
-            echo "Les mots de passe ne correspondent pas.";
-        }else{
-            $mot_de_passe_hache = password_hash($mot_de_passe, PASSWORD_DEFAULT);
-
-            try{
-                $request = $pdo->prepare('INSERT INTO utilisateur (email, mot_de_passe) VALUES(:email, :mot_de_passe)');
-                $request->bindParam(':email', $email);
-                $request->bindParam(':mot_de_passe', $mot_de_passe_hache);
-                $request->execute();
-
-                if($request->rowCount() === 1){
-                    echo "L'utilisateur a été ajouté avec succès.";
-                }else{
-                    echo "Une erreur est survenue lors de l'ajout de l'utilisateur";
-                }
-            } catch(PDOException $e){
-                echo "Échec de la connexion : " . $e->getMessage();
+            if(empty($email) || empty($mot_de_passe) || empty($confirmation_mot_de_passe)){
+                header('Location: Formulaire_Inscription.php');
+                exit;//pour stopper le script
             }
-        }
+
+            if($mot_de_passe !== $confirmation_mot_de_passe){
+                echo "Les mots de passe ne correspondent pas.";
+            }else{
+                $mot_de_passe_hache = password_hash($mot_de_passe, PASSWORD_DEFAULT);
+
+                try{
+                    $request = $pdo->prepare('INSERT INTO utilisateur (email, mot_de_passe) VALUES(:email, :mot_de_passe)');
+                    $request->bindParam(':email', $email);
+                    $request->bindParam(':mot_de_passe', $mot_de_passe_hache);
+                    $request->execute();
+
+                    if($request->rowCount() === 1){
+                        echo "L'utilisateur a été ajouté avec succès.";
+                    }else{
+                        echo "Une erreur est survenue lors de l'ajout de l'utilisateur";
+                    }
+                } catch(PDOException $e){
+                    echo "Échec de la connexion : " . $e->getMessage();
+                }
+            }
 
         ?>
     </main>

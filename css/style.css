@@ -108,15 +108,15 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
-    /* Formulaire.php */
+    /* Formulaire_Inscription.php & Formulaire_Connexion */
 
-    #section_formulaire{
+    #section_formulaire_inscription, #section_formulaire_connexion{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .formulaire{
+    .formulaire_inscription, .formulaire_connexion{
         display: flex;
         flex-direction: column;
         width: 250px;
@@ -125,26 +125,25 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
-    .formulaire ul{
+    .formulaire_inscription ul, .formulaire_connexion ul{
         padding: 0;
         list-style: none;
     }
 
-    .formulaire ul li{
+    .formulaire_inscription ul li, .formulaire_connexion ul li{
         padding: 0 10px;
         margin-bottom: 10px;
     }
 
-    /*à modifier, etant donné de l'ajout du bouton_3*/
-    .formulaire ul li:last-child{
+    .formulaire_inscription ul li:last-child, .formulaire_connexion ul li:last-child{
         margin-bottom: 0;
     }
 
-    .formulaire label, .formulaire input{
+    .formulaire_inscription label, .formulaire_inscription input, .formulaire_connexion label, .formulaire_connexion input{
         display: block;
     }
 
-    .formulaire input{
+    .formulaire_inscription input, .formulaire_connexion input{
         width: 100%;
         box-sizing: border-box;
     }
